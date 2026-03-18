@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Engagement & Service Analytics Dashboard</title>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand">Customer Engagement</a>
+                <button class="btn btn-light"onclick="navigate('dashboard')">Dashboard</button>
+                <button class="btn btn-light"onclick="navigate('customers')">Customers</button>
+                <button class="btn btn-light"onclick="navigate('tickets')">Tickets</button>
+            </div>
+        </nav>
+        <div class="container mt-4" id="app"></div>
+        <script src="dist/services/apiService.js"defer></script>
+        <script src="dist/components/dashboard.js"defer></script>
+        <script src="dist/components/customerComponent.js"defer></script>
+        <script src="dist/components/ticketComponent.js"defer></script>
+        <script src="dist/router/router.js"defer></script>
+    </body>
+</html>

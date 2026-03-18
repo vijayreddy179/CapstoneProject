@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "none",
+        "outDir": "./dist",
+        "strict": false
+    },
+    "include": [
+        "models/*.ts",
+        "services/*.ts",
+        "components/*.ts",
+        "router/*.ts"
+    ]
+}

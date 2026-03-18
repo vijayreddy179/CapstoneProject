@@ -1,0 +1,6 @@
+@CustomerEngagement_HostAddress = http://localhost:5157
+
+GET {{CustomerEngagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
