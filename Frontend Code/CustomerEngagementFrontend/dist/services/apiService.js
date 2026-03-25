@@ -8,13 +8,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 const API = "https://localhost:7226/api";
-function getCustomers() {
+export function getCustomers() {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch(`${API}/customers`);
         return yield response.json();
     });
 }
-function createCustomer(customer) {
+export function createCustomer(customer) {
     return __awaiter(this, void 0, void 0, function* () {
         yield fetch(`${API}/customers`, {
             method: "POST",
@@ -23,18 +23,24 @@ function createCustomer(customer) {
         });
     });
 }
-function getTickets() {
+export function getTickets() {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch(`${API}/ticket`);
         return yield response.json();
     });
 }
-function createTicket(ticket) {
+export function createTicket(ticket) {
     return __awaiter(this, void 0, void 0, function* () {
         yield fetch(`${API}/ticket`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(ticket)
         });
+    });
+}
+export function getDashboard() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const res = yield fetch("https://localhost:7226/api/dashboard");
+        return res.json();
     });
 }

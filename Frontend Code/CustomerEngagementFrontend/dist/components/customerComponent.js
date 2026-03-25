@@ -7,7 +7,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-function showCustomerPage() {
+import { createCustomer, getCustomers } from "../services/apiService.js";
+export function showCustomerPage() {
     return __awaiter(this, void 0, void 0, function* () {
         document.getElementById("app").innerHTML = `
     <h2>Customers</h2>
@@ -41,12 +42,24 @@ function addCustomer() {
         const existing = yield getCustomers();
         const duplicate = existing.find((c) => c.email === customer.email);
         if (duplicate) {
+            if (!isValidEmail(customer.email)) {
+                alert("Invalid email format");
+                return;
+            }
             alert("Customer already exists!");
             return;
         }
         yield createCustomer(customer);
+        if (!isValidEmail(customer.email)) {
+            alert("Invalid email format");
+            return;
+        }
         alert("Customer created successfully");
     });
+}
+function isValidEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
 }
 function loadCustomers() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -76,3 +89,6 @@ function loadCustomers() {
         document.getElementById("customerArea").innerHTML = html;
     });
 }
+window.showCustomerForm = showCustomerForm;
+window.loadCustomers = loadCustomers;
+window.addCustomer = addCustomer;

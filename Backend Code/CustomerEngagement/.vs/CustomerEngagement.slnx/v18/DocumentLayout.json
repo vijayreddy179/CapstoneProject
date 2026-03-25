@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "D:\\Capstone\\CustomerEngagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\exceptions\\duplicatecustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:exceptions\\duplicatecustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\customerengagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:customerengagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\data\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:data\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\exceptions\\duplicatecustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:exceptions\\duplicatecustomerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +63,8 @@
       "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\models\\ticketcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:models\\ticketcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\customerengagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|solutionrelative:customerengagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ECBDF54-29E4-8206-13E8-AEB9D085ECF6}|CustomerEngagement.csproj|d:\\capstone\\customerengagement\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +98,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T17:24:44.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "Controllers\\TicketController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T12:03:07.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:56:36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Data\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\CustomerDbContext.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Data\\CustomerDbContext.cs",
+              "RelativeToolTip": "Data\\CustomerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:54:47.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TicketRepository.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIAwwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T12:01:06.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T11:50:09.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerEngagement.http",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\CustomerEngagement.http",
+              "RelativeDocumentMoniker": "CustomerEngagement.http",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\CustomerEngagement.http",
+              "RelativeToolTip": "CustomerEngagement.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-16T17:16:32.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:27:55.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:53:58.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
+              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Services\\CustomerService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T12:01:50.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ICustomerRepository.cs",
@@ -110,57 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomerDbContext.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Data\\CustomerDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\CustomerDbContext.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Data\\CustomerDbContext.cs",
-              "RelativeToolTip": "Data\\CustomerDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:54:47.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketRepository.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Repositories\\TicketRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TicketRepository.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Repositories\\TicketRepository.cs",
-              "RelativeToolTip": "Repositories\\TicketRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIA+wBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:01:06.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-16T11:50:09.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Services\\CustomerService.cs",
-              "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:01:50.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "DuplicateCustomerException.cs",
               "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Exceptions\\DuplicateCustomerException.cs",
               "RelativeDocumentMoniker": "Exceptions\\DuplicateCustomerException.cs",
@@ -172,31 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "Controllers\\TicketController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:03:07.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:51:31.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ITicketService.cs",
               "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Interfaces\\ITicketService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ITicketService.cs",
@@ -208,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "TicketService.cs",
               "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "Services\\TicketService.cs",
@@ -220,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
@@ -232,31 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Ticket.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Models\\Ticket.cs",
-              "RelativeToolTip": "Models\\Ticket.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:56:36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:53:58.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "TicketCategory.cs",
               "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Models\\TicketCategory.cs",
               "RelativeDocumentMoniker": "Models\\TicketCategory.cs",
@@ -265,30 +297,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T11:57:16.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-16T17:24:44.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomerEngagement.http",
-              "DocumentMoniker": "D:\\Capstone\\CustomerEngagement\\CustomerEngagement.http",
-              "RelativeDocumentMoniker": "CustomerEngagement.http",
-              "ToolTip": "D:\\Capstone\\CustomerEngagement\\CustomerEngagement.http",
-              "RelativeToolTip": "CustomerEngagement.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-03-16T17:16:32.763Z"
             },
             {
               "$type": "Document",

@@ -1,4 +1,6 @@
-async function showCustomerPage() {
+import {createCustomer, getCustomers} from "../services/apiService.js";
+
+export async function showCustomerPage() {
     document.getElementById("app")!.innerHTML=`
     <h2>Customers</h2>
     <button onclick="showCustomerForm()" class="btn btn-primary">Add Customer</button>
@@ -32,12 +34,25 @@ async function addCustomer() {
     const duplicate = existing.find((c:any) => c.email === customer.email);
 
     if (duplicate) {
+        if(!isValidEmail(customer.email)) {
+        alert("Invalid email format");
+        return;
+        }
         alert("Customer already exists!");
         return;
     }
 
     await createCustomer(customer);
+    if(!isValidEmail(customer.email)) {
+        alert("Invalid email format");
+        return;
+    }
     alert("Customer created successfully");
+}
+
+function isValidEmail(email: string): boolean {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
 }
 
 async function loadCustomers() {
@@ -70,3 +85,6 @@ async function loadCustomers() {
 
     document.getElementById("customerArea")!.innerHTML = html;
 }
+(window as any).showCustomerForm = showCustomerForm;
+(window as any).loadCustomers = loadCustomers;
+(window as any).addCustomer = addCustomer;

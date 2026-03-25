@@ -7,7 +7,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-function showTicketPage() {
+import { createTicket, getTickets } from "../services/apiService.js";
+export function showTicketPage() {
     return __awaiter(this, void 0, void 0, function* () {
         document.getElementById("app").innerHTML = `
     <h2>Tickets</h2>
@@ -43,16 +44,20 @@ function addTicket() {
             status: document.getElementById("status").value,
             description: document.getElementById("description").value
         };
+        yield createTicket(ticket);
+        alert("Ticket created successfully");
         if (!ticket.customerId || !ticket.categoryId) {
             alert("CustomerId and CategoryId required");
             return;
         }
-        if (ticket.description.length < 10) {
+        if (ticket.description.length < 5) {
             alert("Description must be at least 10 characters");
             return;
         }
-        yield createTicket(ticket);
-        alert("Ticket created successfully");
+        yield loadTickets(); // refresh ticket list
+        if (window.loadDashboard) {
+            window.loadDashboard();
+        } // refresh dashboard counts
     });
 }
 function loadTickets() {
@@ -85,3 +90,6 @@ function loadTickets() {
         document.getElementById("ticketArea").innerHTML = html;
     });
 }
+window.showTicketForm = showTicketForm;
+window.loadTickets = loadTickets;
+window.addTicket = addTicket;

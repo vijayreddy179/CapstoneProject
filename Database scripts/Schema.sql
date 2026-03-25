@@ -104,17 +104,17 @@ DECLARE @Description NVARCHAR(500) = 'Transaction issue';
 
 
 
-INSERT INTO Customers (Name, Email, Phone)
-VALUES  ('Vijay','vijay@gmail.com','9876543210'),
-        ('Arjun','arjun@gmail.com','9012345678'),
-        ('Vikram','vikram@gmail.com','9801234567'),
-        ('Vinay','vinay@gmail.com','7890123456'),
-        ('Akshith','akshith@gmail.com','6789012345'),
-        ('Bhanu','bhanu@gmail.com','5678901234'),
-        ('Priya','priya@gmail.com','9087654321'),
-        ('Pooja','pooja@gmail.com','9807654321'),
-        ('Sneha','sneha@gmail.com','9098776543'),
-        ('Karan','karan@gmail.com','3214567890');
+INSERT INTO Customers (Name, Email, Phone, CreatedDate)
+VALUES  ('Vijay','vijay@gmail.com','9876543210','2026-03-14 10:49:03.263'),
+        ('Arjun','arjun@gmail.com','9012345678','2026-03-14 10:58:58.456'),
+        ('Vikram','vikram@gmail.com','9801234567','2026-03-14 11:49:34.167'),
+        ('Vinay','vinay@gmail.com','7890123456','2026-03-14 16:49:56.532'),
+        ('Akshith','akshith@gmail.com','6789012345','2026-03-15 11:23:11.567'),
+        ('Bhanu','bhanu@gmail.com','5678901234','2026-03-16 10:01:18.010'),
+        ('Priya','priya@gmail.com','9087654321','2026-03-16 15:31:15.023'),
+        ('Pooja','pooja@gmail.com','9807654321','2026-03-17 08:02:14.456'),
+        ('Sneha','sneha@gmail.com','9098776543','2026-03-17 12:34:06.045'),
+        ('Karan','karan@gmail.com','3214567890','2026-03-17 14:15:02.053');
 
 
 INSERT INTO Agents (AgentName, Email)
@@ -128,17 +128,25 @@ VALUES ('Transaction Issue'),
        ('Payment Issue'),
        ('Technical Issue');
 
-INSERT INTO Tickets (AgentId, CustomerId, CategoryId, Description, Status)
-VALUES (1,1,1,'UPI transaction failed','Open'),
-       (2,2,2,'Unable to login to account','Closed'),
-       (3,3,3,'Payment deducted but not processed','InProgress'),
-       (1,4,4,'Application crashing frequently','Open'),
-       (2,5,1,'Bank transfer not reflecting','Closed'),
-       (3,6,2,'Password reset link not working','InProgress'),
-       (1,7,3,'Card payment declined','Open'),
-       (2,8,4,'Website loading very slow','Closed'),
-       (3,9,1,'UPI payment timeout issue','Inprogress'),
-       (1,10,2,'OTP not received during login','Open');
+INSERT INTO Tickets (AgentId, CustomerId, CategoryId, Description, Status, ResolvedDate)
+VALUES (1,1,1,'UPI transaction failed','Open',GETDATE()),
+       (2,2,2,'Unable to login to account','Closed',GETDATE()),
+       (3,3,3,'Payment deducted but not processed','InProgress',GETDATE()),
+       (1,4,4,'Application crashing frequently','Open',GETDATE()),
+       (2,5,1,'Bank transfer not reflecting','Closed',GETDATE()),
+       (3,6,2,'Password reset link not working','InProgress',GETDATE()),
+       (1,7,3,'Card payment declined','Open',GETDATE()),
+       (2,8,4,'Website loading very slow','Closed',GETDATE()),
+       (3,9,1,'UPI payment timeout issue','Inprogress',GETDATE()),
+       (1,10,2,'OTP not received during login','Open',GETDATE());
+
+UPDATE Tickets
+SET 
+    ResolvedDate = 
+        CASE 
+            WHEN Status = 'Closed' THEN GETDATE()
+            ELSE NULL
+        END;
 
 SELECT * FROM Customers;
 SELECT * FROM Agents;
@@ -154,6 +162,8 @@ SELECT
     CategoryId,
     Description,
     Status,
-    CreatedDate,
     ResolvedDate
 FROM Tickets;
+
+ALTER TABLE Tickets
+ALTER COLUMN AgentId INT NULL;

@@ -22,10 +22,35 @@ namespace CustomerEngagement.Controllers
             return Ok(service.GetCustomers());
         }
 
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         // Create customer
         [HttpPost]
-        public IActionResult CreateCustomer(Customer customer)
+        public IActionResult CreateCustomer([FromBody]Customer customer)
         {
+            if (customer == null)
+            {
+                return BadRequest("Invalid data");
+            }
+            if (IsValidEmail(customer.Email))
+            {
+                return BadRequest("Invalid Email Format");
+            }
+            if(service.GetCustomers().Any(x => x.Email == customer.Email))
+            {
+                return BadRequest("Customer already exists");
+            }
             service.AddCustomer(customer);
 
             return Ok("Customer created");

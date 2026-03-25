@@ -1,4 +1,6 @@
-async function showTicketPage() {
+import {createTicket, getTickets} from "../services/apiService.js";
+
+export async function showTicketPage() {
     document.getElementById("app")!.innerHTML=`
     <h2>Tickets</h2>
     <button onclick="showTicketForm()" class="btn btn-primary">Create Ticket</button>
@@ -33,19 +35,22 @@ async function addTicket() {
         status: (document.getElementById("status") as HTMLSelectElement).value,
         description: (document.getElementById("description") as HTMLInputElement).value
     };
-
+    await createTicket(ticket);
+    alert("Ticket created successfully");
+    
     if (!ticket.customerId || !ticket.categoryId) {
         alert("CustomerId and CategoryId required");
         return;
     }
 
-    if (ticket.description.length < 10) {
+    if (ticket.description.length < 5) {
         alert("Description must be at least 10 characters");
         return;
     }
-
-    await createTicket(ticket);
-    alert("Ticket created successfully");
+    await loadTickets();                    // refresh ticket list
+    if((window as any).loadDashboard) {
+        (window as any).loadDashboard();
+    }  // refresh dashboard counts
 }
 
 async function loadTickets() {
@@ -80,3 +85,6 @@ async function loadTickets() {
 
     document.getElementById("ticketArea")!.innerHTML = html;
 }
+(window as any).showTicketForm = showTicketForm;
+(window as any).loadTickets = loadTickets;
+(window as any).addTicket = addTicket;

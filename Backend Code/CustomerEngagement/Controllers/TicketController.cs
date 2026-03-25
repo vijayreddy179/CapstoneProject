@@ -25,8 +25,18 @@ namespace CustomerEngagement.Controllers
         [HttpPost]
         public IActionResult CreateTicket([FromBody] Ticket ticket)
         {
+            if(ticket == null)
+            {
+                return BadRequest();
+            }
             ticket.CreatedDate = DateTime.Now;
-            ticket.Status = "Open";
+            if(ticket.Status == "Closed")
+            {
+                ticket.ResolvedDate = DateTime.Now;
+            }else
+            {
+                ticket.ResolvedDate = null;
+            }
 
             ticketService.Add(ticket);
 
